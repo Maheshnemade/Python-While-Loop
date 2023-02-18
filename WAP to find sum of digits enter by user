@@ -1,0 +1,6 @@
+digit = int(input("Enter any digit: "))
+sum = 0
+while digit>0:
+    sum = sum + digit%10
+    digit = digit//10
+print(sum)
